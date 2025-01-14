@@ -11,4 +11,4 @@ root.geometry('300x200')
 
 label = Label(text = 'Це напис')
 label.bind('<1>', label_click)
-label.pack(pady = 20)
+label.place(x = 75, y = 10)
