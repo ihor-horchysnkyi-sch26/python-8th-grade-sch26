@@ -11,7 +11,7 @@ def click(event):
 root = Tk()
 root.geometry("300x250")
 entry = Entry()
-entry.bind('<1>', click)
+entry.bind('<Return>', click)
 entry.pack(pady = 20)
 entry.focus_set()
 
